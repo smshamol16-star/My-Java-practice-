@@ -1,4 +1,4 @@
-package Basics;
+package miniProjects;
 
 import java.util.Random;
 import java.util.Scanner;
