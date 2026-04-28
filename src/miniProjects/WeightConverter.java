@@ -27,10 +27,9 @@ public class WeightConverter {
             weight2 = scanner.nextDouble();
             System.out.printf("The new weight in lbs is %.2f.", weight2*2.20462);
         }
-        else{
-            System.out.print("There is a problem you choose a wrong option \"3\".");
+        else {
+            System.out.print("Invalid option: " + option);
         }
-
         scanner.close();
     }
 }
