@@ -31,7 +31,7 @@ public class NumberGuessingGame {
                         System.out.println("Correct! You got it in " +attempt+" attempts!");
                     }
 
-                }while (guessNumber!=randomNumber && attempt<7);
+                }while (guessNumber!=randomNumber && attempt<=7);
                 if (guessNumber != randomNumber) {
                     System.out.println("Game over! The number was " + randomNumber);
                 }
