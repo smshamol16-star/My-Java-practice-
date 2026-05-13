@@ -7,10 +7,11 @@ A comprehensive collection of beginner-friendly Java mini-projects designed to p
 1. [Calculator](#calculator)
 2. [Number Guessing Game](#number-guessing-game)
 3. [Bank ATM System](#bank-atm-system)
-4. [Temperature Converter](#temperature-converter)
-5. [Weight Converter](#weight-converter)
-6. [Compound Interest Calculator](#compound-interest-calculator)
-7. [Student Report Card](#student-report-card)
+4. [Banking Program Beginner](#banking-program-beginner)
+5. [Temperature Converter](#temperature-converter)
+6. [Weight Converter](#weight-converter)
+7. [Compound Interest Calculator](#compound-interest-calculator)
+8. [Student Report Card](#student-report-card)
 
 ---
 
@@ -111,6 +112,64 @@ Withdrawal successful! Remaining balance: 45000.0
 - **Initial Balance:** 50,000 BDT
 
 **Learn From This:** User input handling, Conditional logic, Data validation
+
+---
+
+## 🏧 Banking Program Beginner
+
+**Purpose:** A simple bank management system with deposit, withdrawal, and balance checking functionality using static methods and loops.
+
+### Features
+- 💰 Display current account balance
+- 💵 Deposit money with validation
+- 🏧 Withdraw money with balance check
+- 🔄 Continuous menu loop
+- ✅ Input validation for negative amounts
+- ✔️ Prevents overdrawing
+
+### How to Use
+```bash
+java miniProjects.BankingProgramBeginner
+```
+
+**Example:**
+```
+***************
+Banking Program
+***************
+1. Show Balance
+2. Deposit 
+3. Withdraw 
+4. Exit 
+***************
+Enter your choice(1-4): 1
+***************
+$20000.00
+```
+
+### Menu Options
+| Choice | Action |
+|--------|--------|
+| 1 | Show current balance |
+| 2 | Deposit money |
+| 3 | Withdraw money |
+| 4 | Exit program |
+
+### Initial Balance
+- **Starting Balance:** $20,000.00
+
+### Main Methods
+- `showBalance(double balance)` - Displays formatted balance
+- `deposit()` - Handles deposits with validation
+- `withdraw(double balance)` - Handles withdrawals with balance check
+- `main(String[] args)` - Controls program flow with while loop
+
+### Validation Rules
+- **Deposit:** Rejects negative amounts
+- **Withdrawal:** Prevents overdrawing and negative amounts
+- **Menu:** Shows error for invalid choices
+
+**Learn From This:** While loops, Static methods, Switch statements, Input validation, Parameter passing
 
 ---
 
@@ -257,8 +316,10 @@ Your lucky number is 42.
 - ✅ Conditional Statements (if-else, switch)
 - ✅ Loops (do-while, while)
 - ✅ Methods & Functions
+- ✅ Static Methods
 - ✅ Random Number Generation
 - ✅ String Operations
+- ✅ Parameters & Return Values
 
 ### Built-in Classes
 - `java.util.Scanner` - User input
@@ -287,7 +348,11 @@ javac src/miniProjects/*.java
 java -cp src miniProjects.Calculator
 java -cp src miniProjects.NumberGuessingGame
 java -cp src miniProjects.BankAtmSystem
-# ... and so on
+java -cp src miniProjects.BankingProgramBeginner
+java -cp src miniProjects.TemperatureConverter
+java -cp src miniProjects.WeightConverter
+java -cp src miniProjects.CompooundingInterretCalculator
+java -cp src miniProjects.StudentReportCard
 ```
 
 ---
@@ -301,6 +366,7 @@ These mini-projects help you practice:
 - 💬 Handling user input and output
 - 🧮 Mathematical and financial calculations
 - 🎮 Building interactive applications
+- 🔄 Working with loops and methods
 
 ---
 
@@ -313,19 +379,9 @@ These mini-projects help you practice:
 | Calculator | ⭐⭐ Medium | Switch statements, Methods |
 | Number Guessing Game | ⭐⭐ Medium | Loops, Random, Conditionals |
 | Bank ATM System | ⭐⭐ Medium | Input validation, Logic flow |
+| Banking Program Beginner | ⭐⭐ Medium | While loops, Static methods, Switch |
 | Compound Interest Calculator | ⭐⭐⭐ Medium | Math formulas, Precision |
 | Student Report Card | ⭐⭐⭐ Medium | Multiple calculations, Logic |
-
----
-
-## 🚀 Next Steps
-
-After completing these projects, you can:
-1. 🔧 Add more features (e.g., transaction history for ATM)
-2. 🎨 Build GUI versions using Swing or JavaFX
-3. 💾 Implement file storage for persistent data
-4. 🧪 Add unit testing with JUnit
-5. 🌐 Convert to web applications using Spring Boot
 
 ---
 
@@ -335,6 +391,7 @@ After completing these projects, you can:
 - Code follows basic Java conventions
 - Feel free to modify and enhance these projects
 - Add more features to make them more practical
+- Each project demonstrates different Java concepts
 
 ---
 
