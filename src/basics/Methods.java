@@ -6,7 +6,7 @@ public class Methods {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Easy:
+        // 1st:
 
 
         System.out.print("Enter 1st number: ");
@@ -15,7 +15,7 @@ public class Methods {
         int num2 = scanner.nextInt();
         System.out.println("Sum: " + add(num1, num2));
 
-        // Mid:
+        // 2nd:
 
         // There is a scanner above.
         System.out.print("Enter a number: ");
