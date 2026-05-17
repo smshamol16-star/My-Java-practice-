@@ -8,10 +8,11 @@ A comprehensive collection of beginner-friendly Java mini-projects designed to p
 2. [Number Guessing Game](#number-guessing-game)
 3. [Bank ATM System](#bank-atm-system)
 4. [Banking Program Beginner](#banking-program-beginner)
-5. [Temperature Converter](#temperature-converter)
-6. [Weight Converter](#weight-converter)
-7. [Compound Interest Calculator](#compound-interest-calculator)
-8. [Student Report Card](#student-report-card)
+5. [Dice Program](#dice-program)
+6. [Temperature Converter](#temperature-converter)
+7. [Weight Converter](#weight-converter)
+8. [Compound Interest Calculator](#compound-interest-calculator)
+9. [Student Report Card](#student-report-card)
 
 ---
 
@@ -173,6 +174,77 @@ $20000.00
 
 ---
 
+## 🎲 Dice Program
+
+**Purpose:** A dice rolling simulator that displays visual representations of dice and calculates the total sum of rolls.
+
+### Features
+- 🎲 Roll multiple dice (1-6)
+- 🎨 ASCII art dice visualization for each roll
+- 📊 Total sum calculation
+- ✅ Input validation
+- 🎯 Realistic dice graphics display
+
+### How to Use
+```bash
+java miniProjects.DiceProgram
+```
+
+**Example:**
+```
+Please enter the number of dice: 3
+ _____________
+ |          |
+ |    •     |
+ |          |
+ _____________
+you rolled 1
+ _____________
+ | •         |
+ |           |
+ |         • |
+ _____________
+you rolled 2
+ _____________
+ | •         |
+ |     •     |
+ |         • |
+ _____________
+you rolled 3
+***********
+Total: 6
+***********
+```
+
+### Dice Faces
+| Roll | Display |
+|------|---------|
+| 1 | Single dot in center |
+| 2 | Two diagonal dots |
+| 3 | Three diagonal dots |
+| 4 | Four corner dots |
+| 5 | Five dots (4 corners + center) |
+| 6 | Six dots (2 columns of 3) |
+
+### Main Methods
+- `main(String[] args)` - Controls program flow with for loop
+- `printDice(int rollDice)` - Displays ASCII art dice visualization
+- Uses switch statement for each dice face
+
+### Validation Rules
+- **Input:** Must be greater than 0
+- **Invalid Input:** Shows error message and exits gracefully
+
+### Key Features
+- Each roll generates random number 1-6
+- Visual representation printed immediately after each roll
+- Running total calculated throughout the program
+- Final total displayed in formatted box
+
+**Learn From This:** For loops, Switch statements, Random number generation, String formatting (text blocks), Static methods
+
+---
+
 ## 🌡️ Temperature Converter
 
 **Purpose:** Convert temperature between Celsius and Fahrenheit.
@@ -314,11 +386,12 @@ Your lucky number is 42.
 - ✅ Variables & Data Types
 - ✅ Input/Output (Scanner)
 - ✅ Conditional Statements (if-else, switch)
-- ✅ Loops (do-while, while)
+- ✅ Loops (do-while, while, for)
 - ✅ Methods & Functions
 - ✅ Static Methods
 - ✅ Random Number Generation
 - ✅ String Operations
+- ✅ Text Blocks (Multi-line Strings)
 - ✅ Parameters & Return Values
 
 ### Built-in Classes
@@ -349,6 +422,7 @@ java -cp src miniProjects.Calculator
 java -cp src miniProjects.NumberGuessingGame
 java -cp src miniProjects.BankAtmSystem
 java -cp src miniProjects.BankingProgramBeginner
+java -cp src miniProjects.DiceProgram
 java -cp src miniProjects.TemperatureConverter
 java -cp src miniProjects.WeightConverter
 java -cp src miniProjects.CompooundingInterretCalculator
@@ -367,6 +441,7 @@ These mini-projects help you practice:
 - 🧮 Mathematical and financial calculations
 - 🎮 Building interactive applications
 - 🔄 Working with loops and methods
+- 🎨 String formatting and text manipulation
 
 ---
 
@@ -380,6 +455,7 @@ These mini-projects help you practice:
 | Number Guessing Game | ⭐⭐ Medium | Loops, Random, Conditionals |
 | Bank ATM System | ⭐⭐ Medium | Input validation, Logic flow |
 | Banking Program Beginner | ⭐⭐ Medium | While loops, Static methods, Switch |
+| Dice Program | ⭐⭐ Medium | For loops, Switch, String formatting |
 | Compound Interest Calculator | ⭐⭐⭐ Medium | Math formulas, Precision |
 | Student Report Card | ⭐⭐⭐ Medium | Multiple calculations, Logic |
 
