@@ -454,10 +454,10 @@ These mini-projects help you practice:
 | Calculator | ⭐⭐ Medium | Switch statements, Methods |
 | Number Guessing Game | ⭐⭐ Medium | Loops, Random, Conditionals |
 | Bank ATM System | ⭐⭐ Medium | Input validation, Logic flow |
-| Banking Program Beginner | ⭐⭐ Medium | While loops, Static methods, Switch |
-| Dice Program | ⭐⭐ Medium | For loops, Switch, String formatting |
-| Compound Interest Calculator | ⭐⭐⭐ Medium | Math formulas, Precision |
-| Student Report Card | ⭐⭐⭐ Medium | Multiple calculations, Logic |
+| Banking Program Beginner | ⭐⭐⭐ Medium | While loops, Static methods, Switch |
+| Dice Program | ⭐⭐⭐ Medium | For loops, Switch, String formatting |
+| Compound Interest Calculator | ⭐⭐ Medium | Math formulas, Precision |
+| Student Report Card | ⭐⭐ Medium | Multiple calculations, Logic |
 
 ---
 
