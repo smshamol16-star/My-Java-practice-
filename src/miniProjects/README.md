@@ -193,7 +193,7 @@ java miniProjects.DiceProgram
 **Example:**
 ```
 Please enter the number of dice: 3
- _____________
+ ____________
  |          |
  |    •     |
  |          |
