@@ -40,9 +40,9 @@ public class DiceProgram {
 
         String dice1 = """
                 _____________
-                |          |
-                |    •     |
-                |          |
+                |           |
+                |     •     |
+                |           |
                 _____________
 """ ;
 
