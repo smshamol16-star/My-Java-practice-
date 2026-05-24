@@ -24,7 +24,9 @@ public class NumberGuessingGame {
 
                     if (guessNumber>randomNumber){
                         System.out.println("Too high");
-                    } else if (guessNumber<randomNumber) {
+                    } else if (Math.abs(guessNumber-randomNumber)<=5){
+                        System.out.println("Very close");
+                    }else if (guessNumber<randomNumber) {
                         System.out.println("Too low");
                     }
                     else {
