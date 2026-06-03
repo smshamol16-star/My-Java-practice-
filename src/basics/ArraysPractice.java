@@ -84,7 +84,7 @@ public class ArraysPractice {
 
         boolean found = false;
         for(int i = 0; i<names.length; i++){
-            if(name.equals(names[i])){
+            if(name.equalsIgnoreCase(names[i])){
                 found = true;
                 System.out.println("Match found");
                 break;
