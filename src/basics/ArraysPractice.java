@@ -43,13 +43,17 @@ public class ArraysPractice {
         }
 
         int max=num[0];
-
+        int min=num[0];
         for(int i = 0; i<input; i++){
             if(num[i]>max){
                 max=num[i];
             }
+            if (num[i]<min){
+                min=num[i];
+            }
         }
         System.out.println("Max: "+max);
+        System.out.println("Min: "+min);
         scanner.close();
 
 
@@ -84,7 +88,7 @@ public class ArraysPractice {
 
         boolean found = false;
         for(int i = 0; i<names.length; i++){
-            if(name.equals(names[i])){
+            if(name.equalsIgnoreCase(names[i])){
                 found = true;
                 System.out.println("Match found");
                 break;
