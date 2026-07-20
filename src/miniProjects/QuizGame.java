@@ -21,7 +21,7 @@ public class QuizGame {
 
         int [] correctAnswers = {3, 1, 2, 4, 3};
         int score = 0;
-        int guess = 0;
+        int guess;
 
         System.out.println("*************************");
         System.out.println("Welcome to the Quiz Game!");
