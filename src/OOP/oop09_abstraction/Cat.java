@@ -1,0 +1,12 @@
+package OOP.oop09_abstraction;
+
+public class Cat extends Animal{
+
+    @Override
+    void sound(){
+        System.out.println("Cat meows");
+    }
+
+
+
+}
