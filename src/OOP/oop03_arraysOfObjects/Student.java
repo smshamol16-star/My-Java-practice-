@@ -3,15 +3,21 @@ package OOP.oop03_arraysOfObjects;
 public class Student {
 
     String name;
-    int age;
+    int id;
+    double cgpa;
+    boolean isRegular;
 
-    Student(String name, int age){
+    Student(String name, int id, double cgpa, boolean isRegular){
         this.name = name;
-        this.age = age;
-
+        this.id = id;
+        this.cgpa = cgpa;
+        this.isRegular = isRegular;
     }
-    void introduce(){
-        System.out.println("Name: "+name+"\nAge: "+age);
 
+    void displayInfo(){
+        System.out.println("Name: "+ name);
+        System.out.println("ID: "+ id);
+        System.out.println("CGPA: "+ cgpa);
+        System.out.println("Regular: "+ isRegular);
     }
 }
