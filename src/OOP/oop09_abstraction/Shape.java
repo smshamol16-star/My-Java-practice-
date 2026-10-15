@@ -2,10 +2,9 @@ package OOP.oop09_abstraction;
 
 public abstract class Shape {
 
-    abstract void calculateArea();
+    abstract double area();
 
-    void showType(){
-        System.out.println("This is a shape.");
-
+    void display(){
+        System.out.println("This is a shape..");
     }
 }
