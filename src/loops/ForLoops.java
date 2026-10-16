@@ -6,9 +6,8 @@ public class ForLoops {
     public static void main(String[]args){
 
     //Easy:-
-
+        System.out.println("Those are the even numbers among 1-50:- ");
         for (int i=2 ;i<=50 ;i+=2 ){
-            System.out.println("Those are the even numbers among 1-50:- ");
             System.out.println(i);
         }
 
